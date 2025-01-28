@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(129, 86, 30);
+}
+
+#container {
+    background-color: rgb(1, 181, 181);
+    width: 1200px;
+    margin: 20px auto;
+    border: 2px solid rgb(179, 0, 255);
+    padding: 20px; 
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    font-size: 24px;
+    color: black;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+}
