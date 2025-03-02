@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrations Around the World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+        <h1>Celebrations Around the World</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mardi-gras.html">Mardi Gras</a></li>
+                <li><a href="day-of-the-dead.html">Day of the Dead</a></li>
+                <li><a href="carnival-rio.html">Carnival in Rio</a></li>
+                <li><a href="venice-carnival.html">Venice Carnival</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    
+    <main>
+        <h2>Welcome to Celebrations Around the World!</h2>
+       
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+        <script>
+          function shootConfetti() {
+            confetti({
+              particleCount: 100,
+              spread: 70,
+              origin: { y: 0.6 }
+            });
+          }
+        </script>
+        <button onclick="shootConfetti()">🎉 Click Me 🎉</button>
+
+        <p>Festivals and celebrations bring people together to honor traditions, cultures, and history. Around the world, different communities have unique and vibrant celebrations that are filled with color, music, and joy. These events not only highlight the rich diversity of customs but also strengthen bonds within families, friends, and entire communities. Whether it’s a religious observance, seasonal change, or historical event, each celebration tells a story of the values and beliefs held by the people who celebrate it. From the grand processions of Rio's Carnival to the reflective ceremonies of the Day of the Dead in Mexico, these celebrations allow participants to connect with their heritage, express their creativity, and celebrate life. Festivals often feature traditional foods, dances, costumes, and music, offering a sensory experience that transports people into a different world of wonder and excitement</p>
+
+        <p>This website explores four major celebrations from different parts of the world:</p>
+        
+        <div class="events-container">
+            <div class="event">
+                <h3>Mardi Gras (USA)</h3>
+                <p>A lively festival known for parades, music, and masquerade balls in New Orleans. Mardi Gras is celebrated on Tuesday, March 4.</p>
+            </div>
+            <div class="event">
+                <h3>Day of the Dead (Mexico)</h3>
+                <p>A beautiful tradition honoring loved ones who have passed, filled with altars, flowers, and celebrations. Day of the Dead is celebrated on Saturday, November 1, and Sunday, November 2.</p>
+            </div>
+            <div class="event">
+                <h3>Carnival in Rio (Brazil)</h3>
+                <p>One of the world’s biggest parties, featuring samba dancers, dazzling costumes, and massive parades. Carnival in Rio is celebrated from Friday, February 28, to Tuesday, March 4.</p>
+            </div>
+            <div class="event">
+                <h3>Venice Carnival (Italy)</h3>
+                <p>A historic festival famous for its elegant masks, elaborate costumes, and grand masquerade balls. Venice Carnival is celebrated from Saturday, February 15, to Tuesday, March 4.</p>
+            </div>
+        </div>
+        
+    </main>
+
+<hr>
+
+    <footer>
+        <p>&copy; 2025 Celebrations Around the World</p>
+    </footer>
+</div> 
+</body>
+</html>
